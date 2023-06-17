@@ -1,3 +1,9 @@
+import { Articles } from "./Articles";
+
 export const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <Articles />
+    </div>
+  );
 };
